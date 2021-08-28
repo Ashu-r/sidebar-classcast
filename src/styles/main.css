@@ -1,0 +1,21 @@
+.main {
+	border-radius: 2.5rem;
+	display: grid;
+	grid-template-columns: 80% 20%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	align-content: stretch;
+	overflow: hidden;
+}
+
+.left-section {
+	background-color: bisque;
+}
+
+.sidebar {
+	padding: 0.7rem;
+	border-left: 5px solid #b8b2b2;
+	background-color: #f9fafe;
+	grid-template-rows: 10% 40% 25% 25%;
+}
